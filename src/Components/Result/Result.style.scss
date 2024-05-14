@@ -1,0 +1,47 @@
+.result {
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin: 150px auto; /* Adjust margin as needed */
+    border: 1px solid gray;
+  }
+  
+  .congratulations {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #4CAF50; /* Green color */
+    animation: slideIn 1.5s ease both;
+    opacity: 0;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 25px; /* Add margin between elements */
+  }
+  
+  .go_home {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+  }
+  
+  .go_home:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+    
